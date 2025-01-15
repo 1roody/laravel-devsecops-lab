@@ -1,7 +1,7 @@
 services:
   database:
     image: mysql:8.0
-    container_name: laravel_devsecops_lab_db
+    container_name: devsecops_lab_database
     volumes:
       - db_data:/var/lib/mysql
     environment:
